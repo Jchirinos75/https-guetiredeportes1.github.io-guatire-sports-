@@ -1,0 +1,12 @@
+guatire-sports/
+ ├─ index.html
+ ├─ css/
+ │   └─ styles.css
+ ├─ js/
+ │   └─ main.js
+ ├─ img/
+ │   ├─ logo.svg
+ │   ├─ hero-guatire.jpg
+ │   └─ placeholder-600x400.png
+ └─ data/
+     └─ entrevistas.json   (para después conectar CMS headless)
