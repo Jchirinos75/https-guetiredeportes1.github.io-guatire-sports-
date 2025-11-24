@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Guatire Deportiva | El pulso del deporte mirandino</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Noticias, entrevistas, fotos y torneos de los deportes regionales de Guatire, Estado Miranda.">
+  <link rel="icon" href="img/logo.svg">
+  <meta property="og:title" content="Guatire Deportiva">
+  <meta property="og:description" content="El corazón del deporte regional de Guatire">
+  <meta property="og:image" content="https://tusitio.com/img/hero-guatire.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <img src="img/logo.svg" alt="Logo Guatire Deportiva" class="logo">
+      <nav class="nav" id="nav">
+        <a href="#mision">Misión</a>
+        <a href="#vision">Visión</a>
+        <a href="#torneos">Torneos</a>
+        <a href="#entrevistas">Entrevistas</a>
+        <a href="#fotos">Fotos</a>
+      </nav>
+      <button class="hamburger" id="hamburger">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1>El deporte de Guatire se siente aquí</h1>
+      <p>Cobertura inmediata de torneos regionales, entrevistas a protagonistas y galerías que capturan la pasión mirandina.</p>
+      <a href="#torneos" class="btn">Explorar torneos</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="mision" class="section">
+      <h2>Misión</h2>
+      <p>Visibilizar, potenciar y conectar a los deportistas, clubes y aficionados de Guatire mediante contenido de calidad que inspire participación y orgullo regional.</p>
+    </section>
+
+    <section id="vision" class="section">
+      <h2>Visión</h2>
+      <p>Ser la plataforma digital de referencia para los deportes regionales del estado Miranda, generando oportunidades de patrocinio, formación y exposición nacional para nuestros atletas.</p>
+    </section>
+
+    <section id="torneos" class="section">
+      <h2>Próximos Torneos</h2>
+      <div class="cards" id="torneos-cards">
+        <!-- JS injecta tarjetas -->
+      </div>
+    </section>
+
+    <section id="entrevistas" class="section">
+      <h2>Entrevistas</h2>
+      <div class="cards" id="entrevistas-cards">
+        <!-- JS injecta tarjetas -->
+      </div>
+    </section>
+
+    <section id="fotos" class="section">
+      <h2>Galería de Fotos</h2>
+      <div class="gallery" id="gallery">
+        <!-- JS injecta miniaturas -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Guatire Deportiva. Hecho con 💙 para Miranda.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
